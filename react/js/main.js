@@ -1,8 +1,6 @@
-let cnt = 10;
-
-function NumberSum(numer1,number2){
+function NumberSum(number1,number2){
     return number1+number2;
 }
 
-NumberSum(cnt);
-console.log("실행완료.");
+let result = NumberSum(1,2);
+console.log("ok2ds.",result);
